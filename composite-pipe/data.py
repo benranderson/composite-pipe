@@ -27,14 +27,14 @@ G_23 = 2.54e8
 h = (10e-3)/44
 
 # Inner Diameter Range
-dia_i_min = 0.06
-dia_i_max = 0.06
+dia_i_min = 0.1
+dia_i_max = 0.1
 dia_i_step = 0.1
 
 # Number of Layers Range
-ttl_lyrss_min = 40
-ttl_lyrss_max = 40
-ttl_lyrss_step = 2
+ttl_lyrss_min = 10
+ttl_lyrss_max = 50
+ttl_lyrss_step = 5
 
 # Fibre Orientation Range
 omega_min = 0

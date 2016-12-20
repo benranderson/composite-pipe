@@ -22,14 +22,15 @@ from post_pro import post_pro
 def main():
     """ Run program.
     """
-    
+
     # Extract input variables from data.py
     material, dia_is, ttl_lyrss, omegas, h = extract_inputs()
 
     # Run analyses
     analyses = run_analysis(material, dia_is, ttl_lyrss, omegas, h)
-    
-    # Post process results
-    post_pro(dia_is, ttl_lyrss, omegas, analyses) 
 
-main()
+    # Post process results
+    post_pro(dia_is, ttl_lyrss, omegas, analyses)
+
+if __name__ == "__main__":
+    main()
