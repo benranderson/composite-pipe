@@ -1,5 +1,5 @@
 # composite-pipe
-Calculate axial, bending and torsional stiffnesses for various composite pipe material and layup properties.
+Calculate axial, bending and torsional stiffnesses for composite pipe, based on material and layup properties.
 
 Results are output as tables in text files and graphs in .png files, e.g.:
 
