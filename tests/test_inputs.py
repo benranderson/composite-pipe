@@ -1,5 +1,5 @@
 import unittest
-from inputs import Layup
+from .context import Layup
 
 class TestLayup(unittest.TestCase):
     """ Tests for inputs.Layup. """
@@ -11,4 +11,4 @@ class TestLayup(unittest.TestCase):
         self.assertEqual(expected, actual, "Layup omega")
         
         
-unittest.main()
+# unittest.main()
